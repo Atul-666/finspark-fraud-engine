@@ -25,7 +25,7 @@ import requests
 sys.path.insert(0, ".")
 from src.dbs import device_cache  # noqa: E402
 
-BASE_URL = "http://127.0.0.1:8000"
+BASE_URL = "https://finspark-fraud-engine.onrender.com"
 
 NORMAL_COUNTRIES = ["India", "United States", "United Kingdom", "Germany", "Singapore"]
 SUSPICIOUS_COUNTRIES = ["Russia", "Nigeria", "North Korea", "Belarus"]
